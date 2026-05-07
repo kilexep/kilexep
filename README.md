@@ -1,12 +1,11 @@
 <!-- Header Banner -->
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=10&amp;height=200&amp;section=header&amp;text=Hi%20there%2C%20I%27m%20Jun-Hyun%21&amp;fontSize=50&amp;animation=twinkling&amp;fontAlign=64&amp;fontAlignY=36"
+    src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=10&amp;height=200&amp;section=header&amp;text=Hi%20there%2C%20I%27m%20Jun-Hyun%21&amp;fontSize=50&amp;animation=twinkling&amp;fontAlign=50&amp;fontAlignY=36"
     alt="Hi there, I'm Jun-Hyun!"
     width="100%"
   />
 </p>
-
 <br />
 
 <!-- Intro -->
