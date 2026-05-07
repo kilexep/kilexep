@@ -14,23 +14,26 @@
   I'm currently working on an optical simulation project and an AI development project.
 </p>
 
-<br />
 <!-- Current Focus -->
 <h3 align="center">Current Focus</h3>
 
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td align="center" width="450">
-      <b>Optical Simulation</b>
-      <br />
+    <th align="center" width="50%">Optical Simulation</th>
+    <th align="center" width="50%">AI Development</th>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
       <br />
       Designing and developing simulation-based systems for optical analysis and experimentation.
-    </td>
-    <td align="center" width="450">
-      <b>AI Development</b>
       <br />
+      <br />
+    </td>
+    <td align="center" valign="middle">
       <br />
       Building AI-driven applications with a focus on model development, experimentation, and practical deployment.
+      <br />
+      <br />
     </td>
   </tr>
 </table>
@@ -62,25 +65,29 @@
 <!-- Featured Projects -->
 <h3 align="center">Featured Projects</h3>
 
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td align="center" width="450">
-      <b>Optical Simulation Project</b>
-      <br />
+    <th align="center" width="50%">Optical Simulation Project</th>
+    <th align="center" width="50%">AI Development Project</th>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
       <br />
       A project focused on building simulation tools for optical systems and analyzing experimental conditions.
       <br />
       <br />
-      <sub>Python · Simulation · Data Analysis</sub>
-    </td>
-    <td align="center" width="450">
-      <b>AI Development Project</b>
+      <sub>Python · C++ · Simulation · Data Analysis</sub>
       <br />
+      <br />
+    </td>
+    <td align="center" valign="middle">
       <br />
       An AI-based project exploring model development, learning pipelines, and intelligent software systems.
       <br />
       <br />
-      <sub>Python · PyTorch · TensorFlow </sub>
+      <sub>Python · PyTorch · TensorFlow</sub>
+      <br />
+      <br />
     </td>
   </tr>
 </table>
