@@ -15,6 +15,26 @@
 </p>
 
 <br />
+<!-- Current Focus -->
+<h3 align="center">Current Focus</h3>
+
+<table align="center">
+  <tr>
+    <td align="center" width="450">
+      <b>Optical Simulation</b>
+      <br />
+      <br />
+      Designing and developing simulation-based systems for optical analysis and experimentation.
+    </td>
+    <td align="center" width="450">
+      <b>AI Development</b>
+      <br />
+      <br />
+      Building AI-driven applications with a focus on model development, experimentation, and practical deployment.
+    </td>
+  </tr>
+</table>
+
 <br />
 
 <!-- Tech Stack -->
@@ -35,6 +55,35 @@
     />
   </a>
 </p>
+
+<br />
+
+
+<!-- Featured Projects -->
+<h3 align="center">Featured Projects</h3>
+
+<table align="center">
+  <tr>
+    <td align="center" width="450">
+      <b>Optical Simulation Project</b>
+      <br />
+      <br />
+      A project focused on building simulation tools for optical systems and analyzing experimental conditions.
+      <br />
+      <br />
+      <sub>Python · Simulation · Data Analysis</sub>
+    </td>
+    <td align="center" width="450">
+      <b>AI Development Project</b>
+      <br />
+      <br />
+      An AI-based project exploring model development, learning pipelines, and intelligent software systems.
+      <br />
+      <br />
+      <sub>Python · PyTorch · TensorFlow </sub>
+    </td>
+  </tr>
+</table>
 
 <br />
 
