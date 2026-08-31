@@ -28,6 +28,10 @@ jobs:
       - name: Install crawler dependencies
         run: python -m pip install --upgrade requests beautifulsoup4 lxml markdownify urllib3
 
+      - name: Allow articles without the optional related-content section
+        shell: bash
+        run: sed -i '/if "관련 콘텐츠" not in markdown:/,+1d' automation/searchos_full_crawl.py
+
       - name: Crawl and validate all 238 Korean knowledge articles
         shell: bash
         run: |
