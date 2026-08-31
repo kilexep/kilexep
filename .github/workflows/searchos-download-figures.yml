@@ -1,0 +1,42 @@
+name: Search OS knowledge figures
+
+on:
+  push:
+    branches:
+      - automation/searchos-full-crawl-20260831
+    paths:
+      - .github/workflows/searchos-download-figures.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download the three article figures
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p figures
+          curl --fail --location --retry 5 --retry-delay 1 \
+            'https://d3umi6os7bzwaa.cloudfront.net/glossary/figures/ai-overviews-ko.be596f028f.png' \
+            --output figures/013_ai-overviews-ko.png
+          curl --fail --location --retry 5 --retry-delay 1 \
+            'https://d3umi6os7bzwaa.cloudfront.net/glossary/figures/ai-citation-ko.9c37adaf14.png' \
+            --output figures/014_ai-citation-ko.png
+          curl --fail --location --retry 5 --retry-delay 1 \
+            'https://d3umi6os7bzwaa.cloudfront.net/glossary/figures/schema-markup-ko.bdcc66d457.png' \
+            --output figures/140_schema-markup-ko.png
+          file figures/*
+          sha256sum figures/* > figures/SHA256SUMS.txt
+
+      - name: Upload figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: searchos-knowledge-figures
+          path: figures/
+          if-no-files-found: error
+          retention-days: 3
